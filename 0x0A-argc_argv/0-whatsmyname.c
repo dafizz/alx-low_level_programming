@@ -1,13 +1,12 @@
 #include <stdio.h>
 
 /**
- * main - prints the name of the program
- * @argc: number of arguments passed to the function
- * @argv: argument vector of pointers to strings
- *
- * Return: always 0
+ * main - program to print name of program
+ * @argc: size of argv array and number of command line arguments
+ * @argv: An array of size argc
+ * Return: always successful
  */
-int main(int argc __attribute__((unused)), char *argv)
+int main(int argc _attribute_((unused)), char *argv)
 {
 	printf("%s\n", argv[0]);
 	return (0);
